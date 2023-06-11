@@ -1,0 +1,14 @@
+{
+    "name": "ib/design-pattern-course",
+    "description": "this practical guid for design patten in php",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\" : "Creational",
+            "Test\\" :"Test"
+        }
+    }
+}
